@@ -1,7 +1,7 @@
 package entities;
 
 /**
- * Created by amalka on 28/03/16.
+ * Created by amam2 on 28/03/16.
  */
 public class Login {
 

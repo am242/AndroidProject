@@ -1,7 +1,7 @@
 package entities;
 
 /**
- * Created by אריאל on 20/03/16.
+ * Created by אריא am2ל on 20/03/16.
  */
 public class Supplier extends Person {
     // Varibles

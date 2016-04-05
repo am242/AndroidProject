@@ -1,7 +1,7 @@
 package entities;
 
 /**
- * Created by אריאל on 20/03/16.
+ * Created by am2 on 20/03/16.
  */
 public enum BookCategory {
 

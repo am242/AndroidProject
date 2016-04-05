@@ -3,7 +3,7 @@ package entities;
 import java.io.Serializable;
 
 /**
- * Created by ${ibuktshin} on 19/03/2016.
+ * Created by am2 ${ibuktshin} on 19/03/2016.
  */
 public class Person implements Serializable {
 // Varibles

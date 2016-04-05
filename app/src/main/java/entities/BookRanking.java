@@ -1,7 +1,7 @@
 package entities;
 
 /**
- * Created by ${ibuktshin} on 19/03/2016.
+ * Created by am2 ${ibuktshin} on 19/03/2016.
  */
 public class BookRanking  {
 

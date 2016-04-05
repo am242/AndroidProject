@@ -3,7 +3,7 @@ package entities;
 import java.io.Serializable;
 
 /**
- * Created by ${ibuktshin} on 20/03/2016.
+ * Created by am2${ibuktshin} on 20/03/2016.
  */
 public class Order implements Serializable {
     public static int orderCounter = 3000;

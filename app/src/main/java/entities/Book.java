@@ -3,7 +3,7 @@ package entities;
 import java.io.Serializable;
 
 /**
- * Created by אריאל on 20/03/16.
+ * Created by am2
  */
 public class Book implements Serializable {
 
