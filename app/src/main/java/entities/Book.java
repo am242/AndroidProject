@@ -3,7 +3,7 @@ package entities;
 import java.io.Serializable;
 
 /**
- * Created by am2
+ * Created by am2 3
  */
 public class Book implements Serializable {
 
