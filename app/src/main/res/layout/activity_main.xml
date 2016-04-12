@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,10 +9,62 @@
     android:fitsSystemWindows="true"
     tools:context="com.example.androidproject.MainActivity">
 
+    <ImageButton
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_weight="4"
+        android:id="@+id/imageButton"
+        android:background="@drawable/home_buttons"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitCenter" />
 
+    <ImageButton
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_weight="4"
+        android:id="@+id/imageButton2"
+        android:background="@drawable/home_buttons"
+        android:scaleType="fitCenter"
+        android:layout_below="@+id/imageButton"
+        android:layout_alignParentStart="true" />
 
-    <include layout="@layout/content_main" />
+    <ImageButton
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_weight="4"
+        android:id="@+id/imageButton3"
+        android:background="@drawable/home_buttons"
+        android:scaleType="fitCenter"
+        android:layout_below="@+id/imageButton2"
+        android:layout_alignParentStart="true" />
 
+    <ImageButton
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_weight="4"
+        android:id="@+id/imageButton4"
+        android:background="@drawable/home_buttons"
+        android:scaleType="fitCenter"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imageButton"
+        />
 
+    <ImageButton
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_weight="4"
+        android:id="@+id/imageButton5"
+        android:background="@drawable/home_buttons"
+        android:scaleType="fitCenter"
+        android:layout_below="@+id/imageButton"
+        android:layout_toEndOf="@+id/imageButton2" />
 
-</android.support.design.widget.CoordinatorLayout>
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_below="@+id/imageButton2"
+        android:layout_toEndOf="@+id/imageButton3"
+        android:background="@drawable/home_buttons"/>
+</RelativeLayout>

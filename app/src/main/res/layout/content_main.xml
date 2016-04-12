@@ -12,4 +12,5 @@
     tools:context="com.example.androidproject.MainActivity"
     tools:showIn="@layout/activity_main"
     android:background="#203864">
+
 </RelativeLayout>
